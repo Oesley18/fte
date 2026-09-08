@@ -474,6 +474,27 @@ input[type="reset"]:hover{
 .redes-sociais a:hover{
     color:orange;
 }
+.whatsapp-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
+}
 
 footer{
     background:#003366;
@@ -493,6 +514,7 @@ footer a{
     color:gold;
     text-decoration:none;
 }
+
 
 @media (max-width:1000px){
 
