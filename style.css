@@ -132,6 +132,15 @@ li{
     object-fit:cover;
     z-index:-2;
 }
+.lg{
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+    top:  5%;
+    left: 5%;
+    transform: translate(-50% , -50%);
+}
 
 .banner::before{
     content:"";
@@ -171,10 +180,26 @@ li{
     font-size:22px;
     font-weight:bold;
     transition:0.3s;
+    position: relative;
+    left: 10%;
+}
+.dwl{
+    display:inline-block;
+    background:#5efff7;
+    color:#000;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.4s;
+    position: relative;
+    left: 80%;
+    top: 130px;
 }
 
-.botao:hover{
-    background:orange;
+.botao:hover , .dwl:hover{
+    background:rgb(74, 98, 202);
     transform:scale(1.05);
 }
 
